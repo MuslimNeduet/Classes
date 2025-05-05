@@ -14,7 +14,7 @@ class  Complex{
     void show_data(){ //Encapsulation
         cout<<"A is "<<a<<"\nB Is "<<b<<endl;
     }
-    Complex add(Complex c){
+    Complex add(Complex c){ // Recursion
         Complex temp;
         temp.a=a+c.a;
         temp.b=b+c.b;
